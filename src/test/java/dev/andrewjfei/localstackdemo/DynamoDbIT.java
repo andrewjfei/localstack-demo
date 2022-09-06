@@ -1,12 +1,9 @@
 package dev.andrewjfei.localstackdemo;
 
 import dev.andrewjfei.localstackdemo.util.DynamoDbUtil;
-import dev.andrewjfei.localstackdemo.util.S3Util;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import software.amazon.awssdk.services.dynamodb.DynamoDbClient;
-import software.amazon.awssdk.services.s3.S3Client;
-import software.amazon.awssdk.services.s3.model.S3Object;
 
 import java.util.List;
 import java.util.stream.Collectors;
